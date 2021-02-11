@@ -38,7 +38,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
     - [15 - Crie um componente `<App />`](#15---crie-um-componente-app-)
     - [16 - Renderize `<MovieList />` dentro do componente `<App />`](#16---renderize-movielist--dentro-do-componente-app-)
     - [17 - Adicione PropTypes a todos os componentes](#17---adicione-proptypes-a-todos-os-componentes)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
+- [Depois de terminar o desenvolvimento]ee(#depois-de-terminar-o-desenvolvimento)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos Finais](#avisos-finais)
 
