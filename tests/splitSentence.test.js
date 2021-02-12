@@ -1,6 +1,6 @@
 const { splitSentence } = require('../src/challenges');
 
-describe('3 - Dividindo a frase', () => {
+describe('3 - Crie uma função que divida a frase', () => {
   it('se a função receber a string \'go Trybe\', o retorno deverá ser [\'go\', \'Trybe\'].', () => {
     expect(splitSentence('go Trybe')).toEqual(['go', 'Trybe']);
   });

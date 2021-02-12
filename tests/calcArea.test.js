@@ -1,6 +1,6 @@
 const { calcArea } = require('../src/challenges');
 
-describe('2 - Área do triângulo', () => {
+describe('2 - Crie uma função que calcule a área do triângulo', () => {
   it('passando o parâmetro base com o valor 10 e o parâmetro height com o valor 50, espera-se como resultado 250', () => {
     expect(calcArea(10, 50)).toBe(250);
   });

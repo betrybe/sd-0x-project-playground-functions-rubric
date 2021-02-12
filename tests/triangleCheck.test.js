@@ -1,6 +1,6 @@
 const challenges = require('../src/challenges');
 
-describe('12 - Condição de existência de um triângulo', () => {
+describe('12 - Crie uma função de Condição de existência de um triângulo', () => {
   it('Caso a medida de qualquer um dos lados seja maior que a soma das medidas dos outros dois retorne false', () => {
     expect(challenges.triangleCheck(16, 9, 2)).toBe(false);
     expect(challenges.triangleCheck(10, 3, 4)).toBe(false);

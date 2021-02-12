@@ -1,6 +1,6 @@
 const challenges = require('../src/challenges');
 
-describe('11 - Número de telefone', () => {
+describe('11 - Crie uma função de Número de telefone', () => {
   it('Caso o array tenha o tamanho diferente de 11, retorna a string "Array com tamanho incorreto."', () => {
     expect(challenges.generatePhoneNumber([0, 1, 6])).toBe('Array com tamanho incorreto.');
     expect(challenges.generatePhoneNumber([])).toBe('Array com tamanho incorreto.');

@@ -1,6 +1,6 @@
 const { catAndMouse } = require('../src/challenges');
 
-describe('7 - Caça ao rato', () => {
+describe('7 - Crie uma função de Caça ao rato', () => {
   it('caso o gato cat2 esteja a 2 unidades de distância do rato, e cat1 esteja a 3 unidades, sua função deverá retornar cat2.', () => {
     expect(catAndMouse(0, 3, 2)).toBe('cat2');
   });

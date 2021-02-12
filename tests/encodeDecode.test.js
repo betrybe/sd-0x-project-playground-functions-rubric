@@ -1,6 +1,6 @@
 const challenges = require('../src/challenges');
 
-describe('9 - Codifique e Decodifique', () => {
+describe('9 - Crie uma função que Codifique e Decodifique', () => {
   it('Ao receber uma string a função encode deve codificá-la', () => {
     expect(challenges.encode('hello')).toBe('h2ll4');
     expect(challenges.encode('How are you today?')).toBe('H4w 1r2 y45 t4d1y?');

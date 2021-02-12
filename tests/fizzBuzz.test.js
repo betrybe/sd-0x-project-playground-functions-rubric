@@ -1,6 +1,6 @@
 const { fizzBuzz } = require('../src/challenges');
 
-describe('8 - FizzBuzz', () => {
+describe('8 - Crie uma função FizzBuzz', () => {
   it('caso o parâmetro seja [2, 15, 7, 9, 45], o retorno deve ser [\'bug!\', \'fizzBuzz\', \'bug!\', \'fizz\', \'fizzBuzz\']', () => {
     expect(fizzBuzz([2, 15, 7, 9, 45])).toEqual(['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz']);
   });

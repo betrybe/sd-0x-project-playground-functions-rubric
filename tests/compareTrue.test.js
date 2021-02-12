@@ -1,6 +1,6 @@
 const { compareTrue } = require('../src/challenges');
 
-describe('1 - Usando o operador &&', () => {
+describe('1 - Crie uma função usando o operador &&', () => {
   it('passando um valor false e um true, espera-se resultado false', () => {
     expect(compareTrue(false, true)).toBe(false);
     expect(compareTrue(true, false)).toBe(false);

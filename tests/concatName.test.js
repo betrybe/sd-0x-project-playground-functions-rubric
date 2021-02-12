@@ -1,6 +1,6 @@
 const { concatName } = require('../src/challenges');
 
-describe('4 - Concatenação de strings', () => {
+describe('4 - Crie uma função que use concatenação de strings', () => {
   it('caso o parâmetro seja [\'Lucas\', \'Cassiano\', \'Ferraz\', \'Paolillo\'], espera-se como retorno \'Paolillo, Lucas\'.', () => {
     expect(concatName(['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'])).toBe('Paolillo, Lucas');
   });
