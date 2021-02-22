@@ -1,7 +1,7 @@
 const { techList } = require('../src/challenges');
 
 describe('10 - Crie uma função de Lista de tecnologias', () => {
-  it('Retorne uma lista de objetos ordenados quando é passado uma lista com 5 tecnologias deve ', () => {
+  it('Retorne uma lista de objetos ordenados quando é passada uma lista com 5 tecnologias deve', () => {
     expect(techList(['React', 'Jest', 'HTML', 'CSS', 'JavaScript'], 'Lucas')).toEqual([
       {
         tech: 'CSS',
