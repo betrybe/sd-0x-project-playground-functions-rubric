@@ -191,11 +191,11 @@ Faça a função utilizando o operador `&&`.
 
 **O que será verificado:**
 
-- Retorne false, passado um valor false e um true na função compareTrue
+- Retorne false quando se chamar a função compareTrue com um parâmetro de valor false e outro de valor true
 
-- Retorne false, passado dois valores false na função compareTrue
+- Retorne false quando se chamar a função compareTrue com dois parâmetros de valor false
 
-- Retorne true, passado dois valores true na função compareTrue
+- Retorne true quando se chamar a função compareTrue com dois parâmetros de valor true
 
 ### 2 - Crie uma função que calcule a área do triângulo 
 
@@ -205,11 +205,11 @@ Lembre-se que a área de um triângulo é calculada através da seguinte fórmul
 
 **O que será verificado:**
 
-- Retorne o valor 250, quando a funcão calcArea é chamada com o parâmetro base com o valor 10 e o parâmetro height com o valor 50
+- Retorne o valor 250 quando a funcão calcArea é chamada com o parâmetro base com o valor 10 e o parâmetro height com o valor 50
 
-- Retorne o valor 5, quando a funcão calcArea é chamada com o parâmetro base com o valor 5 e o parâmetro height com o valor 2, espera-se como resultado 5
+- Retorne o valor 5 quando a funcão calcArea é chamada com o parâmetro base com o valor 5 e o parâmetro height com o valor 2 espera-se como resultado 5
 
-- Retorne o valor 25.5, quando a funcão calcArea é chamada com o parâmetro base com o valor 51 e o parâmetro height com o valor 1, espera-se como resultado 25.5
+- Retorne o valor 25.5 quando a funcão calcArea é chamada com o parâmetro base com o valor 51 e o parâmetro height com o valor 1 espera-se como resultado 25.5
 
 ### 3 - Crie uma função que divida a frase
 
@@ -219,11 +219,11 @@ Exemplo: se a função receber a string `"go Trybe"`, o retorno deverá ser `['g
 
 **O que será verificado:**
 
-- Retorne o valor [\'go\', \'Trybe\'] se a função receber a string \'go Trybe\'
+- Retorne o valor ['go', 'Trybe'] se a função receber a string 'go Trybe'
 
-- Retorne o valor [\'vamo\', \'que\', \'vamo\']. se a função receber a string \'vamo que vamo\'
+- Retorne o valor ['vamo', 'que', 'vamo']. se a função receber a string 'vamo que vamo'
 
-- Retorne o valor [\'foguete\'] se a função receber a string \'foguete\'
+- Retorne o valor ['foguete'] se a função receber a string 'foguete'
 
 ### 4 - Crie uma função que use concatenação de strings
 
@@ -233,11 +233,11 @@ Isso quer dizer que, caso o parâmetro passado para `concatName` seja a Array ['
 
 **O que será verificado:**
 
-- Retorne \'Paolillo, Lucas\' quando o parâmetro passado na funcão concatName seja [\'Lucas\', \'Cassiano\', \'Ferraz\', \'Paolillo\']
+- Retorne 'Paolillo, Lucas' quando o parâmetro passado na funcão concatName seja ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']
 
-- Retorne \'ré, foguete\' quando o parâmetro passado na funcão concatName seja [\'foguete\', \'não\', \'tem\', \'ré\']
+- Retorne 'ré, foguete' quando o parâmetro passado na funcão concatName seja ['foguete', 'não', 'tem', 'ré']
 
-- Retorne \'captain, captain\' quando o parâmetro passado na funcão concatName seja [\'captain\', \'my\', \'captain\']
+- Retorne 'captain, captain' quando o parâmetro passado na funcão concatName seja ['captain', 'my', 'captain']
 
 ### 5 - Crie uma função que calcule a quantidade de pontos no futebol
 
@@ -279,11 +279,11 @@ Caso os gatos estejam na mesma distância do rato, a função deverá retornar a
 
 **O que será verificado:**
 
-- Retorne a string \'cat2\' caso a função catAndMouse receba o parâmetros onde gato cat2 esteja a 2 unidades de distância do rato, e cat1 esteja a 3 unidades de distância do rato
+- Retorne a string 'cat2' caso a função catAndMouse receba o parâmetros onde gato cat2 esteja a 2 unidades de distância do rato e cat1 esteja a 3 unidades de distância do rato
 
-- Retorne a string \'cat1\' caso a função catAndMouse receba o parâmetros onde gato cat1 esteja a 6 unidades de distância do rato, e cat2 esteja a 12 unidades de distância do rato
+- Retorne a string 'cat1' caso a função catAndMouse receba o parâmetros onde gato cat1 esteja a 6 unidades de distância do rato e cat2 esteja a 12 unidades de distância do rato
 
-- Retorne a string \'os gatos trombam e o rato foge\', caso a função catAndMouse receba o parâmetros onde gatos estejam na mesma distância do rato de distância do rato
+- Retorne a string 'os gatos trombam e o rato foge' caso a função catAndMouse receba o parâmetros onde gatos estejam na mesma distância do rato
 
 ### 8 - Crie uma função FizzBuzz
 
@@ -298,11 +298,11 @@ Exemplo: caso o parâmetro seja [2, 15, 7, 9, 45], sua função deverá retornar
 
 **O que será verificado:**
 
-- Retorne as strings [\'bug!\', \'fizzBuzz\', \'bug!\', \'fizz\', \'fizzBuzz\'] quando é passado os parâmetros [2, 15, 7, 9, 45] para função fizzBuzz
+- Retorne as strings ['bug!', 'fizzBuzz', 'bug!', 'fizz', 'fizzBuzz'] quando é passado os parâmetros [2, 15, 7, 9, 45] para função fizzBuzz
 
-- Retorne as strings [\'bug!\', \'fizz\'] quando é passado os parâmetros [7, 9] para função fizzBuzz
+- Retorne as strings ['bug!', 'fizz'] quando é passado os parâmetros [7, 9] para função fizzBuzz
 
-- Retorne as strings [\'fizz\', \'buzz\'] quando é passado os parâmetros [9, 25] para função fizzBuzz
+- Retorne as strings ['fizz', 'buzz'] quando é passado os parâmetros [9, 25] para função fizzBuzz
 
 
 ### 9 - Crie uma função que Codifique e Decodifique
@@ -381,7 +381,7 @@ Caso o array venha vazio sua função deve retornar 'Vazio!'
 
 - Retorne uma lista de objetos ordenados quando é passada uma lista com 5 tecnologias deve
 
-- Retorne a mensagem de erro \'Vazio!\' quando a lista tiver com 0 tecnologias
+- Retorne a mensagem de erro 'Vazio!' quando a lista tiver com 0 tecnologias
 
 **Bônus**
 
