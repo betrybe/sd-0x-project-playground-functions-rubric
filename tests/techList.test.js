@@ -1,4 +1,4 @@
-const { techList } = require('../src/challenges');
+const { techList } = require('../src/challenges2');
 
 describe('10 - Crie uma função de Lista de tecnologias', () => {
   it('Retorne uma lista de objetos ordenados quando é passada uma lista com 5 tecnologias deve', () => {

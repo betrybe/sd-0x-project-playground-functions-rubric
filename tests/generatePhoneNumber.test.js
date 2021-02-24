@@ -1,4 +1,4 @@
-const challenges = require('../src/challenges');
+const challenges = require('../src/challenges2');
 
 describe('11 - Crie uma função de Número de telefone', () => {
   it('Retorne a string "Array com tamanho incorreto." caso o array tenha o tamanho diferente de 11', () => {
