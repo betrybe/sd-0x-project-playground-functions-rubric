@@ -132,8 +132,6 @@ function decode(phrase) {
   return switchLetter(phrase, objectDecode);
 }
 
-
-
 module.exports = {
   calcArea,
   catAndMouse,
