@@ -7,7 +7,7 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ### 🗒 ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-0x-project-playground-functions-rubric.git`.
+  * `git clone https://github.com/betrybe/sd-0x-project-playground-functions-rubric.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-0x-project-playground-functions-rubric`
 
