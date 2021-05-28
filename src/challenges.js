@@ -96,9 +96,25 @@ function decode(texto) {
   return novaString;
 }
 
+function compare(a, b) {
+  if (a < b) return -1;
+  if (a > b) return 1;
+  return 0;
+}
+
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(vetTech, nome) {
+  const vetSaida = [];
+  if (vetTech.length > 0) {
+    vetTech.sort(compare);
+  } else {
+    return 'Vazio!';
+  }
+
+  for (let i = 0; i < vetTech.length; i += 1) {
+    vetSaida.push({ tech: vetTech[i], name: nome });
+  }
+  return vetSaida;
 }
 
 // Desafio 11
